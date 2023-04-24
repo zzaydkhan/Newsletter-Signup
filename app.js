@@ -34,7 +34,7 @@ const jsonData = JSON.stringify(data);
 const url = "https://us8.api.mailchimp.com/3.0/lists/359a2d1c28";
 const options = {
     method: "POST",
-    auth: "Zaid:7b244f86a41cd2959602a9d3dee72db3-us8"
+    auth: "Zaid:2faa91efa2ec3c760c014e0a22c46e39-us8"
 }
 const request = https.request(url, options,function(response) {
     if (response.statusCode === 200) {
@@ -58,6 +58,6 @@ app.listen(process.env.PORT || 3000, function() {
 }); 
 
 // API Key
-// 7b244f86a41cd2959602a9d3dee72db3-us8
+// 2faa91efa2ec3c760c014e0a22c46e39-us8
 // app js
 // 359a2d1c28
